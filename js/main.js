@@ -1,0 +1,13 @@
+var today = new Date();
+var currentHour = document.getElementById('hours');
+var currentMinute = document.getElementById('minutes');
+var currentSecond = document.getElementById('seconds');
+var hour = today.getHours();
+var minute = today.getMinutes();
+var second = today.getSeconds();
+var hourText = document.createTextNode(hour);
+var minuteText = document.createTextNode(minute);
+var secondText = document.createTextNode(second);
+currentHour.appendChild(hourText);
+currentMinute.appendChild(minuteText);
+currentSecond.appendChild(secondText);
