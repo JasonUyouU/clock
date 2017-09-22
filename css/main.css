@@ -1,3 +1,21 @@
+@media (max-width: 590px) {
+	div#time {
+		font-size: 66px;
+		margin-top: 250px
+	}
+}
+@media (max-width: 380px) {
+	div#time {
+		font-size: 46px;
+	}
+}
 body {
 	text-align: center;
+	background-color: #79a2b8;
+}
+div {
+	margin-top: 400px;
+	font-size: 96px;
+	color: #fff;
+	font-family: 'Orbitron', sans-serif;
 }
